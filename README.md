@@ -9,13 +9,13 @@ This is one of the many projects included in "The Complete 2020 Web Development 
 1. Give you web browser access to your webcam.
 
 <kbd>
-  <img src="../master/photos/allow.GIF" />
+  <img src="../master/photos/allow.gif" />
 </kbd>
 
 2. Look into the camera and express your current emotion.
 
 <kbd>
-  <img src="../master/photos/transition.GIF" />
+  <img src="../master/photos/transition.gif" />
 </kbd>
 
 3. View results of how much food you need to consume to rectify your hangryness!

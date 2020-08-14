@@ -29,17 +29,33 @@
     }
 
     #title {
-      justify-content: center;
-      font-size: 50px;
-      margin: 10px;
+    justify-content: center;
+    font-size: 50px;
+    margin: 10px;
     }
 
     canvas {
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+    flex: 33.33%
+    padding: 0px;
+    margin: 10px 50px 0;
+    }
+
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
     }
 
   </style>
@@ -52,6 +68,23 @@
   </div>
   <div id="overlay">
     <video id="video" width="720" height="560" autoplay muted></video>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="pizza-slice.jpg" alt="pza" style="width:100%" id="pizza1">
+    </div>
+    <div class="column">
+      <img src="pizza-slice.jpg" alt="pza" style="width:100%" id="pizza2">
+    </div>
+    <div class="column">
+      <img src="pizza-slice.jpg" alt="pza" style="width:100%" id="pizza3">
+    </div>
+    <div class="column">
+      <img src="pizza-slice.jpg" alt="pza" style="width:100%" id="pizza4">
+    </div>
+    <div class="column">
+      <img src="pizza-slice.jpg" alt="pza" style="width:100%" id="pizza5">
+    </div>
   </div>
 </body>
 </html>

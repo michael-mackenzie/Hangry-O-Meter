@@ -1,15 +1,13 @@
 # Hangry-O Meter
 
-This is a simple use of a weather API to get comfortable implementing APIs.
-
-This is one of the many projects included in "The Complete 2020 Web Development Bootcamp" on Udemy instructed by Angela Yu.
+A live emotion detector that tells you how much food the person sitting in front of the camera needs to not be hangry anymore!
 
 ## Using the app
 
 1. Give you web browser access to your webcam.
 
 <kbd>
-  <img src="../master/photos/allow.gif" />
+  <img src="../master/photos/allow.GIF" />
 </kbd>
 
 2. Look into the camera and express your current emotion.
@@ -19,6 +17,14 @@ This is one of the many projects included in "The Complete 2020 Web Development 
 </kbd>
 
 3. View results of how much food you need to consume to rectify your hangryness!
+
+## Credit
+
+The implementation of face-api.js was heavily inspired by YouTuber [Web Dev Simplified](https://www.youtube.com/watch?v=CVClHLwv-4I&t=2s).
+
+
+The github for face-api.js can be found
+[here](https://github.com/justadudewhohacks/face-api.js/)!
 
 ## Contact
 

@@ -4,13 +4,13 @@ A live emotion detector that tells you how much food the person sitting in front
 
 ## Using the app
 
-1. Give you web browser access to your webcam.
+1. Give your web browser access to your webcam:
 
 <kbd>
   <img src="../master/photos/allow.GIF" />
 </kbd>
 
-2. Look into the camera and express your current emotion.
+2. Look into the camera and express your current emotion:
 
 <kbd>
   <img src="../master/photos/transition.gif" />
